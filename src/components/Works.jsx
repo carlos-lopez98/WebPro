@@ -9,17 +9,20 @@ const Works = () => {
         {
             id: 1,
             src: groceries,
-            link: "https://github.com/carlos-lopez98/E-Groceries"
+            link: "https://github.com/carlos-lopez98/E-Groceries",
+            title: "E-Groceries"
         },
         {
             id: 2,
             src: crime,
-            link: "https://github.com/carlos-lopez98"
+            link: "https://github.com/carlos-lopez98",
+            title: "Crime Watchers"
         },
         {
             id: 3,
             src: portfolio,
-            link: "https://github.com/carlos-lopez98/WebPro"
+            link: "https://github.com/carlos-lopez98/WebPro",
+            title: "Portfolio Site"
         }
     ]
 
@@ -40,11 +43,12 @@ const Works = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        works.map(({ id, src, link }) => (
+                        works.map(({ id, src, link, title }) => (
 
                             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 ' />
                                 <div className='flex items-center justify-center'>
+                                    <h1>{title}</h1>
                                     <a href={link} className='w-1/2 px-2 py-3 m-4 duration-200 hover:scale-105'>View the Code</a>
                                 </div>
                             </div>
