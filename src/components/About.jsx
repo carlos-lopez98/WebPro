@@ -9,7 +9,7 @@ const About = () => {
                 </div>
                 <p className='text-xl mt-20'>
 
-                    I am Carlos, a Software Engineer able to build a web applications from the ground up, from system design,
+                    I am Carlos, a Software Engineer able to build web applications from the ground up, from system design,
                     webpage navigation
                     , database integration and back-end programming to UX/ UI.I have recently graduated from a rigourous one year coding institution, with an
                     emphasis on back-end Java Development (Kenzie Academy). I am now skilled in Front-End Technologies such as HTML, CSS, JavaScript, React, BootStrap
