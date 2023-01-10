@@ -1,6 +1,7 @@
 import React from 'react'
 import groceries from "../assets/portfolio/01.jpg"
 import crime from "../assets/portfolio/crime.jpg"
+import portfolio from "../assets/portfolio/portfolio.jpg"
 
 const Works = () => {
 
@@ -14,6 +15,11 @@ const Works = () => {
             id: 2,
             src: crime,
             link: "https://github.com/carlos-lopez98"
+        },
+        {
+            id: 3,
+            src: portfolio,
+            link: "https://github.com/carlos-lopez98/WebPro"
         }
     ]
 
