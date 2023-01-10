@@ -10,19 +10,22 @@ const Works = () => {
             id: 1,
             src: groceries,
             link: "https://github.com/carlos-lopez98/E-Groceries",
-            title: "E-Groceries"
+            title: "E-Groceries",
+            description: "Inventory management system currently tailored for grocers"
         },
         {
             id: 2,
             src: crime,
             link: "https://github.com/carlos-lopez98",
-            title: "Crime Watchers"
+            title: "Crime Watchers",
+            description: "Neighborhood watch app, users can report/ comment/ and find crime activity in their area"
         },
         {
             id: 3,
             src: portfolio,
             link: "https://github.com/carlos-lopez98/WebPro",
-            title: "Portfolio Site"
+            title: "Portfolio Site",
+            description: "Professional Portfolio website to showcase expertise"
         }
     ]
 
