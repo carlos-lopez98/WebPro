@@ -47,16 +47,16 @@ const Works = () => {
 
                             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 ' />
-                                <div className='flex items-center justify-center'>
-                                    <h1>{title}</h1>
-                                    <a href={link} className='w-1/2 px-2 py-3 m-4 duration-200 hover:scale-105'>View the Code</a>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h1 className='w-1/2 px-2 m-2 text-center font-bold text-sky-400'>{title}</h1>
+                                    <a href={link} className='w-1/2 px-2 m-2 duration-200 hover:scale-105 text-center'>Code</a>
                                 </div>
                             </div>
                         ))
                     }
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
