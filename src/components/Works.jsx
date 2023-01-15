@@ -16,7 +16,7 @@ const Works = () => {
         {
             id: 2,
             src: crime,
-            link: "https://github.com/carlos-lopez98",
+            link: "https://github.com/carlos-lopez98/CrimeWatchers",
             title: "Crime Watchers",
             description: "Neighborhood watch app, users can report/ comment/ and find crime activity in their area"
         },
